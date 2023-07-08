@@ -1,0 +1,35 @@
+.lenguades{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+
+.lenguades li{
+
+    padding-right: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 700;
+    font-size: 1rem;
+
+}
+
+.lenguades li::before{
+
+    content: '';
+    width: 1em;
+    height: 1rem;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-image: url('../img/icons/check.svg');
+    background-size: contain;
+    margin-right: .5rem;
+
+}

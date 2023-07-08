@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/styles/global.css" />
+
+    <link rel="stylesheet" href="./assets/styles/header.css" />
+    <link rel="stylesheet" href="./assets/styles/acordeon.css" />
+    <link rel="stylesheet" href="./assets/styles/lenduages.css">
+    <link rel="stylesheet" href="./assets/styles/portfolio.css">
+    <link rel="stylesheet" href="./assets/styles/experience.css">
+    <link rel="stylesheet" href="./assets/styles/skills.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,900;1,300;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Portifólio</title>
+  </head>
+  <main class="main">
+    <body>
+      <header class="header">
+        <img
+          class="photo"
+          src="./assets/img/Captura de tela 2023-07-03 210525.jpg"
+          alt="Foto de perfil"
+        />
+
+        <h1 class="title">
+          Hi, <br />
+          I'm Guilherme Varussa
+        </h1>
+
+        <div class="information">
+          <p class="job">Web/Mobile Developer</p>
+          <p class="location">Sorriso BR</p>
+          <p class="phone">(66) 9 9206-2528</p>
+          <p class="email">guilherme@spacetree.com.br</p>
+        </div>
+      </header>
+
+      <section class="acordeon open">
+        <button class="trigger" type="button" >Skills</button>
+
+        <div class="content">
+          <div class="skills">
+            <section class="tools">
+              <h3>Professional: </h3>
+              <ul>
+                <li>
+                  <img src="./assets/img/icons/skills/node.svg" alt="node" title="node">
+                </li>
+                <li>
+                  <img src="./assets/img/icons/skills/typescript.svg" alt="typescript" title="typescript">
+                </li>
+                <li>
+                  <img src="./assets/img/icons/skills/js.svg" alt="js" title="js">
+                </li>
+                <li>
+                  <img src="./assets/img/icons/skills/angular.svg" alt="angular" title="angular">
+                </li>
+                <li>
+                  <img src="./assets/img/icons/skills/react.svg" alt="react" title="react">
+                </li>
+                <li>
+                  <img src="./assets/img/icons/skills/html.svg" alt="html" title="html">
+                </li>
+                 <li>
+                  <img src="./assets/img/icons/skills/css.svg" alt="css" title="css">
+                </li> 
+                <li>
+                  <img src="./assets/img/icons/skills/saas.svg" alt="saas" title="git">
+                </li>
+                <li>
+                  <img src="./assets/img/icons/skills/msql.svg" alt="msql" title="msql">
+                </li>
+                <li>
+                  <img src="./assets/img/icons/skills/git.svg" alt="git" title="git">
+                </li>
+                
+               
+              </ul>
+            </section>
+            <section class="personal">
+              <h3>Personal: </h3>
+              <ul>
+                <li>Organization</li>
+                <li>SCRUM</li>
+                <li>Comunication</li>
+                <li>Management</li>
+
+              </ul>
+            </section>
+          </div>
+          
+        </div>
+      </section>
+
+      <section class="acordeon ">
+        <button class="trigger" type="button" >Lenguages</button>
+
+        <div class="content">
+          <ul class="lenguades">
+            <li>Portuguese BR</li>
+            <li>English</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="acordeon ">
+        <button class="trigger" type="button">
+          Portfolio
+        </button>
+        <div class="content">
+          <ul class="portfolio" id="profile.portfolio">
+          
+          </ul>
+
+        </div>
+
+      </section>
+      
+      <section class="acordeon">
+        <button class="trigger" type="button">
+          Profesional Experience
+        </button>
+        <div class="content">
+          <ul class="experience">
+            <li>
+              <h4 class="title">Front-end Developer / Visio AI</h4>
+              <p class="period">Out 2021 - Set 2022</p>
+              <p>
+                Participating in the front end development squad of a 
+                computer vision platform for fast food quality control using Angular.</p>
+            </li>
+            <li>
+              <h4 class="title">Front-end Developer / Farmfish</h4>
+              <p class="period">jul 2019 - Current</p>
+              <p>
+                Acting in the elaboration and front end development 
+                of the platform for managing fish farms FarmiFish using React.</p>
+            </li>
+
+            <li>
+              <h4 class="title">Front-end Developer / Botuvera app</h4>
+              <p class="period">jul 2019 - Current</p>
+              <p>Acting in the design and development 
+                of mobile application and web platform 
+                for land freight using React and Reactive-native.</p>
+            </li>
+            
+        </div>
+
+      </section>
+
+
+
+      <script src="./js/acordeon.js"></script>
+      <script src="./js/api.js"></script>
+      <script src="./js/main.js"></script>
+    </body>
+  </main>
+</html>
